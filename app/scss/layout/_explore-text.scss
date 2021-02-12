@@ -1,0 +1,17 @@
+.explore-text__img {
+	max-width: 540px;
+	flex: 0 0 540px;
+	border-radius: 10px;
+	@media only screen and (max-width: 768px) {
+		display: block;
+		width: 100%;
+		max-width: 100%;
+		margin-bottom: 15px;
+	}
+}
+.explore-text__paragraph {
+	margin-bottom: 30px;
+	@media only screen and (max-width: 320px) {
+		line-height: 22px;
+	}
+}

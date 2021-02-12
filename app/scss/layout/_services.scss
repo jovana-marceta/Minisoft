@@ -1,0 +1,46 @@
+.explore-text-title {
+	@media only screen and (max-width: 320px) {
+		font-size: 24px;
+		line-height: 36px;
+	}
+}
+
+.services {
+	background-color: $white;
+}
+
+.services__box {
+	margin-bottom: 15px;
+}
+
+.services__box-content {
+	display: flex;
+	align-items: center;
+	justify-content: flex-start;
+}
+
+.services__box-png {
+	font-size: 50px;
+	margin-right: 25px;
+	color: $blue;
+}
+
+.services__box-title {
+	margin-bottom: 10px;
+	@media only screen and (max-width: 768px) {
+		margin-bottom: 5px;
+	}
+}
+
+.services__box-paragraph {
+	@media only screen and (max-width: 320px) {
+		line-height: 22px;
+	}
+}
+
+.services__container {
+	@media only screen and (max-width: 768px) {
+		margin-bottom: 40px;
+	}
+}
+

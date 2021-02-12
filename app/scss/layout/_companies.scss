@@ -1,0 +1,16 @@
+.companies {
+	position: relative;
+	padding: 40px 0;
+	background-color: rgba($white-2, 0.5);
+	display: flex;
+	flex-wrap: wrap;
+}
+
+.companies__logo {
+	width: 180px;
+	z-index: -1;
+	position: relative;
+	@media only screen and (max-width: 480px) {
+		margin: 0 auto;
+	}
+}

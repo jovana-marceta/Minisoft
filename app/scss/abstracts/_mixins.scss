@@ -1,0 +1,32 @@
+* {
+	box-sizing: border-box;
+	&::before,
+	&::after {
+		box-sizing: border-box;
+	}
+}
+
+%clearfix {
+	&::before, &::after {
+		content: '';
+		display: table;
+	}
+	&::after {
+		clear: both;
+	}
+}
+
+ul {
+	padding: 0;
+}
+
+@each $colors-name in $site-colors {
+	$name: nth($colors-name, 1);
+	$color: nth($colors-name, 2);
+	.bg-#{$name} {
+		background-color: $color;
+	}
+	.color-#{$name} {
+		color: $color;
+	}
+}

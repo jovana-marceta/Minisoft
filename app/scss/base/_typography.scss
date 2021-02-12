@@ -1,0 +1,94 @@
+// Headings
+
+.h1, .h2, .h3, .h4, .h5, .h6 {
+	font-family: $font-heading;
+	font-weight: bold;
+}
+
+.h1 {
+	font-size: 42px;
+	line-height: 50px;
+	color: $white;
+	@media only screen and (max-width: 768px) {
+		font-size: 28px;
+		line-height: 30px;
+		letter-spacing: -1px;
+	}
+	@media only screen and (max-width: 320px) {
+		font-size: 24px;
+	}
+}
+
+.h2 {
+	font-size: 42px;
+	line-height: 46px;
+	color: $white;
+	margin-bottom: 30px;
+	@media only screen and (max-width: 480px) {
+		font-size: 28px;
+		line-height: 1.2;
+	}
+}
+
+.h2--black {
+	color: $gray-4;
+	font-size: 32px;
+	margin-bottom: 20px;
+	line-height: 42px;
+	@media only screen and (max-width: 768px) {
+		letter-spacing: -1px;
+	}	
+	@media only screen and (max-width: 480px) {
+		font-size: 22px;
+	}		
+}
+
+.h3 {
+	font-size: 20px;
+	line-height: 1.7;
+	color: #263a4f;
+	letter-spacing: -0.5px;
+	@media only screen and (max-width: 480px) {
+		font-size: 16px;
+		line-height: 1.7;
+		letter-spacing: -.5px;
+	}
+}
+
+.h4 {
+	font-size: 16px;
+	color: $gray-4;
+}
+
+.h6 {
+	font-weight: bold;
+	margin-bottom: 10px;
+}
+
+.span-square {
+	text-transform: uppercase;
+	display: inline-block;
+	color: $black;
+	font-size: 12px;
+	letter-spacing: 0;
+	font-family: $font-secondary;
+	font-weight: bold;
+	position: relative;
+	margin-bottom: 10px;
+	&::after {
+		background-color: transparent;
+		position: absolute;
+		content: "";
+		width: 20px;
+		height: 30px;
+		left: calc(50% - 10px);
+		top: calc(50% - 15px);
+		border: 3px solid $blue;
+		opacity: .5;
+		z-index: 10;
+	}
+}
+
+p {
+	margin: 0;
+}

@@ -1,0 +1,29 @@
+//Fonts
+$font-heading: 'Poppins', Arial, sans-serif;
+$font-secondary: 'Work Sans', Arial, sans-serif;
+$font-awesome: "Font Awesome 5 Free";
+
+// Colors
+$black: #000;
+$white: #fff;
+$white-2: #f9fafa;
+$blue: #51A7B0;
+$blue-dark: #11717A;
+$silver: #ddd;
+$gray: #8d9aa8;
+$gray-dark: #232427;
+$gray-3: #333;
+$gray-4: #263a4f;
+
+$site-colors: (
+	'black': $black,
+	'white': $white,
+	'gray-dark': $gray-dark,
+	'white-2': $white-2
+) !default;
+
+
+
+
+
+

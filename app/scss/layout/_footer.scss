@@ -1,0 +1,49 @@
+.footer__top {
+	padding: 100px 0;
+	border-bottom: 1px solid $gray-3;
+	@media only screen and (max-width: 480px) {
+		padding: 60px 0;
+	}
+}
+
+.footer__logo {
+	width: 129px;
+	margin-bottom: 20px;
+}
+
+.footer__box {
+	@media only screen and (max-width: 768px) {
+		margin-bottom: 30px;
+	}
+	@media only screen and (max-width: 480px) {
+		margin-bottom: 20px;
+	}
+}
+
+.footer__box-title {
+	color: $white;
+}
+
+.footer__box-text {
+	@media only screen and (max-width: 480px) {
+		line-height: 22px;
+	}
+}
+
+.footer__box-list {
+	list-style: none;
+}
+
+.footer__link {
+	color: $gray;
+}
+
+.footer__link:hover {
+	color: $blue;
+	transition: color .5s;
+}
+
+.footer__bottom {
+	padding: 25px 0;
+	text-align: center;
+}

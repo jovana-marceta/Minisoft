@@ -1,0 +1,42 @@
+.icon::before {
+	display: inline-block;
+	font-style: normal;
+	font-variant: normal;
+	text-rendering: auto;
+	-webkit-font-smoothing: antialiased;
+	font-family: $font-awesome;
+	font-weight: 900;
+	font-size: 40px;
+	color: $blue;
+	width: 80px;
+	@media only screen and (max-width: 320px) {
+		width: 80px;
+	}
+}
+
+.building::before {
+	content: "\f1ad";
+}
+
+.award::before {
+	content: "\f559";
+}
+
+.cogs::before {
+	content: "\f085";
+}
+
+.testimonial-icon {
+	color: $blue;
+	font-size: 10px;
+}
+
+.testimonial-quote {
+	position: absolute;
+	right: 20px;
+	font-size: 50px;
+	color: rgba($blue-dark, 0.81);
+	@media only screen and (max-width: 780px) {
+		display: none;
+	}
+}
